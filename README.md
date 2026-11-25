@@ -65,3 +65,7 @@ Pi-hole listeyi kendiliğinden çekmez; değişiklikten sonra **Tools → Update
   güncellemesi biraz sürebilir.
 - Dosya `hosts` biçimindedir (`0.0.0.0 alan.adı`); Pi-hole bu biçimi doğrudan okur.
 - `127.0.0.1 localhost` gibi yerel kayıtlar korunmuştur; bunları silme.
+- GitHub `raw` adresi birkaç dakika önbellekte kalabilir. Yeni kayıtlar hemen
+  görünmezse birkaç dakika sonra Update Gravity çalıştır. Önbelleği atlamak için
+  `https://github.com/ailantus/pihole-hosts/raw/refs/heads/main/hosts.txt` adresi
+  de kullanılabilir.
