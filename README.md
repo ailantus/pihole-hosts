@@ -10,13 +10,13 @@ Güncellemek için dosyayı elle düzenleyip commit edersin.
 2. Adres kutusuna şunu yapıştır:
 
    ```text
-   https://raw.githubusercontent.com/<KULLANICI>/<DEPO>/refs/heads/main/hosts.txt
+   https://raw.githubusercontent.com/<KULLANICI>/<DEPO>/main/hosts.txt
    ```
 
    Bu depo için örnek:
 
    ```text
-   https://raw.githubusercontent.com/ailantus/pihole-hosts/refs/heads/main/hosts.txt
+   https://raw.githubusercontent.com/ailantus/pihole-hosts/main/hosts.txt
    ```
 
 3. **Tools → Update Gravity** çalıştır (komut satırından `pihole -g`).
